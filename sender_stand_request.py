@@ -1,7 +1,6 @@
 import configuration
-import requests
 import data
-
+import requests
 
 def post_new_user(body):
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_PATH,
@@ -11,15 +10,7 @@ def post_new_user(body):
 def post_new_client_kit(kit_body, auth_token):
     new_headers = data.headers.copy()
     new_headers["Authorization"] = "Bearer " + auth_token
-
-    new_headers = {
-        "Content-Type": "application/json"
-        "authorization": "Bearer "
-    }
-    return requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_PATH,
+    return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH,
                          json=kit_body,
                          headers=new_headers)
-
-
-
 

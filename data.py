@@ -1,9 +1,11 @@
+
+
 headers = {
     "Content-Type": "application/json"
 }
 
 kit_body = {
-       "name": "Nombre de mi kit"
+       "name": "Nombre de mi kit",
    }
 
 user_body = {
