@@ -5,12 +5,13 @@ headers = {
 }
 
 kit_body = {
-       "name": "Nombre de mi kit",
+    "name": "Nombre de mi kit",
    }
 
 user_body = {
-    "firstName": "Nombre de mi user",
-"phone": "0123456789",
-"adress": "123 Elmo Street"
+    "firstName": "Max",
+    "phone": "+10005553535",
+    "address": "8042 Lancaster Ave.Hamburg, NY"
 }
+
 
