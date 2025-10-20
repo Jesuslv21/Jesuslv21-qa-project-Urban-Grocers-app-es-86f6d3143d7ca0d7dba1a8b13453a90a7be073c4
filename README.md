@@ -35,3 +35,5 @@ Luego aparece la direccion donde esta guardado el proyecto, se procede a ejecuta
 Es importante que el nombre del archivo de los pruebas contenga la palabra test en el. En el caso de este proyecto el archivo se llama create_kit_name_kit_test.py
 
 por lo que se escribe en el shell: pytest create_kit_name_kit_test.py y se ejecutaran todas las funciones que tengas test dentro de su nombre.
+
+pytest
